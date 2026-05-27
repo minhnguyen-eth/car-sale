@@ -5,6 +5,7 @@ export default function Navbar({ cars = [], onSelectCar }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("#hero");
 
+  
   useEffect(() => {
     const sections = ["#hero", "#cars", "#promo", "#news", "#contact"];
     const onScroll = () => {
