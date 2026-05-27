@@ -39,7 +39,7 @@ export default function WhySection() {
           </p>
         </div>
 
-        <div className="reveal" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 22 }}>
+        <div className="reveal one-column-mobile" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 22 }}>
           {ITEMS.map((item) => (
             <div key={item.title} className="card trust-card">
               <div style={{ width: 54, height: 54, borderRadius: 18, background: "rgba(214,0,0,0.1)", display: "grid", placeItems: "center", fontSize: 24, marginBottom: 18 }}>

@@ -44,7 +44,7 @@ export default function CarsSection({ cars = [], loading = false, onViewDetails 
 
         {!loading && (
           <>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 22 }}>
+            <div className="one-column-mobile" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 22 }}>
               {visibleCars.map((car, i) => (
                 <CarCard key={car.slug || i} car={car} index={i} onViewDetails={onViewDetails} />
               ))}

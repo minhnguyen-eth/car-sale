@@ -27,7 +27,7 @@ export default function PromoSection() {
           </p>
         </div>
 
-        <div className="reveal" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 28, alignItems: "start" }}>
+        <div className="reveal one-column-mobile" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 28, alignItems: "start" }}>
           {/* Left: checklist */}
           <div className="promo-list">
             {PROMOS.map((p, i) => (
@@ -41,7 +41,7 @@ export default function PromoSection() {
           </div>
 
           {/* Right: CTA card */}
-          <div style={{ position: "sticky", top: 100, background: "var(--byd-blue)", color: "#fff", borderRadius: 12, padding: "40px 32px", boxShadow: "var(--shadow-md)", overflow: "hidden", position: "relative" }}>
+          <div className="promo-cta-card" style={{ position: "sticky", top: 100, background: "var(--byd-blue)", color: "#fff", borderRadius: 12, padding: "40px 32px", boxShadow: "var(--shadow-md)", overflow: "hidden", position: "relative" }}>
             <div style={{ position: "absolute", top: -60, right: -60, width: 200, height: 200, borderRadius: "50%", background: "rgba(255,255,255,0.08)" }} />
             <div style={{ position: "relative" }}>
               <div style={{ fontSize: 11, letterSpacing: ".22em", textTransform: "uppercase", opacity: 0.7, marginBottom: 14 }}>Liên hệ ngay</div>

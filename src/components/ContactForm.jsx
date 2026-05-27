@@ -144,7 +144,7 @@ export default function ContactForm() {
           </p>
         </div>
 
-        <div className="reveal" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.2fr)", gap: 36, alignItems: "start", maxWidth: 1000, margin: "0 auto" }}>
+        <div className="reveal" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 36, alignItems: "start", maxWidth: 1000, margin: "0 auto" }}>
           {/* Left: contact info */}
           <div style={{ background: "var(--byd-blue)", color: "#fff", borderRadius: 12, padding: "36px 28px", position: "sticky", top: 100, boxShadow: "var(--shadow-md)" }}>
             <h3 style={{ fontSize: 22, fontWeight: 800, color: "#fff", marginBottom: 18 }}>Showroom BYD Đồng Nai</h3>

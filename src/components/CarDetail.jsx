@@ -43,7 +43,7 @@ export default function CarDetail({ car, onBack }) {
           ← Quay lại danh sách xe
         </button>
 
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1.35fr) minmax(0, 0.85fr)", gap: 32, alignItems: "flex-start" }}>
+        <div className="car-detail-grid" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1.35fr) minmax(0, 0.85fr)", gap: 32, alignItems: "flex-start" }}>
           <div>
             <div style={{ position: "relative", borderRadius: 24, overflow: "hidden", boxShadow: "var(--shadow-lg)", background: "#000" }}>
               <img
@@ -146,7 +146,7 @@ export default function CarDetail({ car, onBack }) {
               <p style={{ margin: "18px 0 24px", color: "var(--text-2)", lineHeight: 1.8 }}>{car.description}</p>
               <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)" }}>{car.price}</div>
 
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12, marginTop: 26 }}>
+              <div className="car-detail-specs" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12, marginTop: 26 }}>
                 {car.range && renderSpec("Đầm hành", car.range)}
                 {car.power && renderSpec("Công suất", car.power)}
                 {car.battery && renderSpec("Pin", car.battery)}

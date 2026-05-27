@@ -37,7 +37,7 @@ export default function NewsSection() {
           </p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 22 }}>
+        <div className="one-column-mobile" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 22 }}>
           {NEWS.map((n, i) => (
             <a key={i} href="#contact" className="news-card reveal" data-reveal-delay={i * 80}>
               <div className="img-wrap">

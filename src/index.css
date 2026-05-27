@@ -431,4 +431,8 @@ a { color: inherit; text-decoration: none; }
   .slider-arrow { width: 38px; height: 38px; }
   .slider-arrow.prev { left: 10px; }
   .slider-arrow.next { right: 10px; }
+  .one-column-mobile { grid-template-columns: 1fr !important; }
+  .promo-cta-card { position: relative !important; top: auto !important; }
+  .car-detail-grid { grid-template-columns: 1fr !important; }
+  .car-detail-specs { grid-template-columns: 1fr !important; }
 }
