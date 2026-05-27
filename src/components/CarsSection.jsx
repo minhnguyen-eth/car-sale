@@ -11,6 +11,7 @@ export default function CarsSection({ cars = [], loading = false, onViewDetails 
 
   const revealRef = useScrollReveal({ deps: [cars.length, filter, loading] });
 
+  
   return (
     <section id="cars" className="section" style={{ background: "var(--surface-2)" }} ref={revealRef}>
       <div className="container">
