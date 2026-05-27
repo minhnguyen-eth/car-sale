@@ -435,4 +435,5 @@ a { color: inherit; text-decoration: none; }
   .promo-cta-card { position: relative !important; top: auto !important; }
   .car-detail-grid { grid-template-columns: 1fr !important; }
   .car-detail-specs { grid-template-columns: 1fr !important; }
+  .contact-sidebar { position: static !important; top: auto !important; }
 }

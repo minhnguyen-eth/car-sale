@@ -146,7 +146,7 @@ export default function ContactForm() {
 
         <div className="reveal" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 36, alignItems: "start", maxWidth: 1000, margin: "0 auto" }}>
           {/* Left: contact info */}
-          <div style={{ background: "var(--byd-blue)", color: "#fff", borderRadius: 12, padding: "36px 28px", position: "sticky", top: 100, boxShadow: "var(--shadow-md)" }}>
+          <div className="contact-sidebar" style={{ background: "var(--byd-blue)", color: "#fff", borderRadius: 12, padding: "36px 28px", position: "sticky", top: 100, boxShadow: "var(--shadow-md)" }}>
             <h3 style={{ fontSize: 22, fontWeight: 800, color: "#fff", marginBottom: 18 }}>Showroom BYD Đồng Nai</h3>
             <p style={{ fontSize: 14, color: "rgba(255,255,255,0.85)", lineHeight: 1.6, marginBottom: 24 }}>
               Đại lý ủy quyền chính hãng — tư vấn chuyên nghiệp, lái thử miễn phí tận nơi.
