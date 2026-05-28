@@ -8,13 +8,13 @@ const NEWS = [
     excerpt: "SUV điện cỡ D thế hệ mới với công nghệ DiPilot L2+, giá khởi điểm từ 1,199 tỷ đồng.",
   },
   {
-    image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=900&q=85",
+    image: "https://www.doktermobil.com/wp-content/uploads/2024/11/Review-dan-Spesifikasi-BYD-Seal-jpg.webp",
     date: "08/03/2025",
     title: "Ưu đãi lãi suất 0% cho khách hàng mua BYD Seal trong tháng 3",
     excerpt: "Chương trình hỗ trợ tài chính độc quyền — vay tối đa 80% giá trị xe, kỳ hạn lên tới 8 năm.",
   },
   {
-    image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=900&q=85",
+    image: "https://cdn.shopifycdn.net/s/files/1/0558/3332/9831/files/What_you_need_to_know_about_blade_battery.jpg?v=1664417886",
     date: "27/02/2025",
     title: "Trải nghiệm Blade Battery — Công nghệ pin an toàn nhất thế giới",
     excerpt: "Pin LFP cell-to-pack đặc trưng của BYD đã vượt qua thử nghiệm xuyên đinh, đảm bảo an toàn tuyệt đối.",

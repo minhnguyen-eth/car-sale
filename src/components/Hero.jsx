@@ -24,7 +24,7 @@ const SLIDES = [
     cta: "Tìm hiểu thêm",
   },
   {
-    image: "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?w=1920&q=90",
+    image: "https://skds.1cdn.vn/2026/04/20/cdn-i.vtcnews.vn-upload-2026-04-20-_11-13205809.jpg",
     eyebrow: "BÁN CHẠY",
     title: "BYD Dolphin",
     subtitle: "Hatchback điện thông minh cho đô thị Việt Nam",
@@ -33,7 +33,7 @@ const SLIDES = [
 
   // BYD HAN
   {
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&q=90",
+    image: "https://i1-vnexpress.vnecdn.net/2024/11/06/BangA1LDJPG-1730878865.jpg?w=750&h=450&q=100&dpr=1&fit=crop&s=bXscw3gqOn6zytL2DrrMZw",
     eyebrow: "EV · FLAGSHIP SEDAN",
     title: "BYD HAN",
     subtitle: "Sedan điện cao cấp — tăng tốc mạnh mẽ, nội thất sang trọng",
@@ -42,25 +42,16 @@ const SLIDES = [
 
   // BYD M9
   {
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1920&q=90",
+    image: "https://bydhcm.com.vn/wp-content/uploads/2025/10/53b09d80-3729-4a3b-a81b-328e1916570aa-800x469-1.jpg",
     eyebrow: "MPV · CAO CẤP",
     title: "BYD M9",
     subtitle: "MPV gia đình rộng rãi — tiện nghi cho mọi hành trình",
     cta: "Tìm hiểu thêm",
   },
 
-  // BYD DOLPHIN
-  {
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1920&q=90",
-    eyebrow: "EV · HATCHBACK",
-    title: "BYD DOLPHIN",
-    subtitle: "Xe điện đô thị linh hoạt — trẻ trung và tiết kiệm",
-    cta: "Xem chi tiết",
-  },
-
   // BYD ATTO 2
   {
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1920&q=90",
+    image: "https://byd-danang.vn/wp-content/uploads/2025/07/byd-atto2-exterior-04-white-l-13740-2-2.jpg",
     eyebrow: "COMPACT SUV · EV",
     title: "BYD ATTO 2",
     subtitle: "SUV điện nhỏ gọn — phù hợp di chuyển trong đô thị",
@@ -69,7 +60,7 @@ const SLIDES = [
 
   // BYD SEAL 5
   {
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=90",
+    image: "https://bydvn.com.vn/Content/Uploads/Articles/tin-tuc/BYD-Seal-5-sedan-PHEV-dau-tien-ra-mat-Viet-Nam-gia-696-trieu-dong_z7126590659896_381e564980b853f8bfaf29d53a0c7138-1.jpg",
     eyebrow: "HYBRID · SEDAN",
     title: "BYD SEAL 5",
     subtitle: "Sedan hiện đại — vận hành êm ái và tiết kiệm nhiên liệu",
@@ -78,7 +69,7 @@ const SLIDES = [
 
   // BYD M6
   {
-    image: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1920&q=90",
+    image: "https://cdn.dailyxe.com.vn/image/byd-m6-06-338273j.jpg",
     eyebrow: "MPV · EV",
     title: "BYD M6",
     subtitle: "MPV điện đa dụng — không gian rộng cho gia đình",
@@ -87,20 +78,11 @@ const SLIDES = [
 
   // BYD ATTO 3
   {
-    image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1920&q=90",
+    image: "https://www.byd.com/material/byd-site/sg/2025-atto-3/desktop/1.jpg",
     eyebrow: "SUV ĐIỆN QUỐC DÂN",
     title: "BYD ATTO 3",
     subtitle: "SUV điện nổi bật — công nghệ hiện đại, pin Blade Battery",
     cta: "Tìm hiểu thêm",
-  },
-
-  // BYD SEALION 8
-  {
-    image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1920&q=90",
-    eyebrow: "SUV FULL-SIZE · EV",
-    title: "BYD SEALION 8",
-    subtitle: "SUV điện cỡ lớn — thiết kế mạnh mẽ và công nghệ tiên phong",
-    cta: "Khám phá ngay",
   },
 ];
 

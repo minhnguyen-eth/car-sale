@@ -48,7 +48,7 @@ export default function ContactForm() {
     if (status === "success" || hasInteractedWithContactForm) return undefined;
     const intervalId = window.setInterval(() => {
       setShowPopup(true);
-    }, 20000); // Thời gian hiện form nhận tư vấn ngay
+    }, 30000); // Thời gian hiện form nhận tư vấn ngay
     return () => window.clearInterval(intervalId);
   }, [status, hasInteractedWithContactForm]);
 
